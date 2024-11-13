@@ -1,3 +1,32 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .hero-size {
     width: 100%;
 }
@@ -6,8 +35,8 @@
     font-size: 1.875em;
     color: white;
     position: absolute;
-    top: 300px;
-    left: 34%;
+    top: 1000px;
+    left: 10%;
 }
 
 .hero-bg {
