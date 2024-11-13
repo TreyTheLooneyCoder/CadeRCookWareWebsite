@@ -188,8 +188,7 @@ h5 {
 .b-column1 {
     border: black solid 2px;
     border-radius: 10px;
-    margin-left: px;
-    margin-right: px;
+    margin-left: 40px;
     width: 497px;
     height: 625px;
     display: flex;
@@ -211,8 +210,6 @@ h5 {
 .b-column2 {
     border: black solid 2px;
     border-radius: 10px;
-    margin-left: px;
-    margin-right: px;
     width: 497px;
     height: 757px;
 }
@@ -231,8 +228,7 @@ h5 {
 .b-column3 {
     border: black solid 2px;
     border-radius: 10px;
-    margin-left: px;
-    margin-right: px;
+    margin-right: 40px;
     width: 497px;
     height: 757px;    
 }
