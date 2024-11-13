@@ -264,5 +264,71 @@ h5 {
 
 
 /* Reviews */
+.rev-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
 
+.r-row1 {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+}
+
+.r-column1 {
+    grid-row: 2;
+    grid-column: 1;
+    background-image: url("/assets/Reviews1.jpg");
+    background-size: 531px 665px;
+    background-repeat: no-repeat;
+}
+
+.r-column2 {
+    grid-row: 2;
+    grid-column: 2 / 3;
+    background-image: url("/assets/Reviews2.jpg");
+    background-size: 531px 665px;
+    background-repeat: no-repeat;
+}
+
+.r-column3 {
+    grid-row: 2;
+    grid-column: 3 / 4;
+    background-image: url("/assets/Reviews3.jpg");
+    background-size: 531px 665px;
+    background-repeat: no-repeat;
+}
+
+.r-hero {
+    border-radius: 10px;
+    width: 531px;
+    height: 664.75px;
+}
+
+.r-hero-text1 {
+    color: white; 
+}
+
+.r-hero-text2 {
+    color: white;
+}
+
+.r-hero-text3 {
+    color: white;
+}
+
+.r-hero-bg {
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 426px;
+    height: 345px;
+    margin-top: 160px;
+    margin-bottom: 250px;
+    margin-left: 53px;
+}
 /* Reviews End */
