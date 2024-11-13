@@ -29,17 +29,32 @@ h5 {
 
 .hero-size {
     width: 100%;
+    
 }
 
 .logo {
     font-size: 1.875em;
     color: white;
     position: absolute;
-    top: 1000px;
+    top: 850px;
     left: 10%;
 }
 
 .hero-bg {
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.sale-line {
+    background-color: #1E2C20;
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    grid-template-rows: 10px 30px 10px;
+}
+
+.sale-text {
+    color: white;
+    grid-column: 2;
+    grid-row: 2;
 }
