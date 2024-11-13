@@ -1,3 +1,4 @@
+/* General Use */
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -26,7 +27,10 @@ h5 {
     font-weight: 600;
     font-size: 20px;
 }
+/* General Use end */
 
+
+/* Main Middle Img */
 .hero-size {
     width: 100%;
     
@@ -44,7 +48,9 @@ h5 {
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.589);
 }
+/* Main Middle Img End */
 
+/* $10 Off */
 .sale-line {
     background-color: #1E2C20;
     font-size: 24px;
@@ -58,20 +64,22 @@ h5 {
     grid-column: 2;
     grid-row: 2;
 }
+/* $10 Off End */
 
+/* Pot Cards */
 .pot-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 10px;
 }
 
-.row1 {
+.p-row1 {
     grid-row: 1;
     grid-column: 2 / 4;
     text-align: center;
 }
 
-.column1 {
+.p-column1 {
     grid-row: 2;
     grid-column: 1;
     max-width: 379px;
@@ -79,7 +87,7 @@ h5 {
     margin-left: 130px;
 }
 
-.column2 {
+.p-column2 {
     grid-row: 2;
     grid-column: 2 / 3;
     max-width: 379px;
@@ -87,7 +95,7 @@ h5 {
     margin-left: 50px;
 }
 
-.column3 {
+.p-column3 {
     grid-row: 2;
     grid-column: 3 / 4;
     max-width: 379px;
@@ -95,7 +103,7 @@ h5 {
     margin-left: 25px;
 }
 
-.column4 {
+.p-column4 {
     grid-row: 2;
     grid-column: 4 / 5;
     max-width: 379px;
@@ -109,3 +117,144 @@ h5 {
     border-radius: 15px;
     margin-bottom: 20px;
 }
+/* Pot Cards End */
+
+/* New Arrivals */
+.arrival-section {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.a-row1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+
+.a-row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.a-column1 {
+    margin-left: 130px;
+    margin-right: 25px;
+}
+
+.a-column2 {
+    margin-left: 25px;
+    margin-right: 130px;
+}
+
+.arrival-imgs {
+    width: 805px;
+    height: 632px;
+}
+/* New Arrivals End */
+
+/* Best Sellers */ 
+.best-section {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.b-row1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.b-row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.b-column1 {
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-left: px;
+    margin-right: px;
+    width: 497px;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    align-self: self-start;
+}
+
+.b-column1 > img, .b-column1 > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-self: center;
+}
+
+.b-column1 > h2, .b-column1 > p {
+    margin: 20px;
+}
+
+.b-column2 {
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-left: px;
+    margin-right: px;
+    width: 497px;
+    height: 757px;
+}
+
+.b-column2 > img, .b-column2 > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-self: center;
+}
+
+.b-column2 > h2, .b-column2 > p {
+    margin: 20px;
+}
+
+.b-column3 {
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-left: px;
+    margin-right: px;
+    width: 497px;
+    height: 757px;    
+}
+
+.b-column3 > img, .b-column3 > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-self: center;
+}
+
+.b-column3 > h2, .b-column3 > p {
+    margin: 20px;
+}
+
+.best-imgs {
+    width: 449px;
+    height: 338px;
+    border-radius: 10px;
+}
+
+.shop-now {
+    border: black solid 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 159px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+}
+/* Best Sellers End */
