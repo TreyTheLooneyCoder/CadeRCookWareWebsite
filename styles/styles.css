@@ -1,0 +1,16 @@
+.hero-size {
+    width: 100%;
+}
+
+.logo {
+    font-size: 1.875em;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 34%;
+}
+
+.hero-bg {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.432);
+}
