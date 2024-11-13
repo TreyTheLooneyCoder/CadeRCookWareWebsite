@@ -62,28 +62,50 @@ h5 {
 .pot-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px;
 }
 
 .row1 {
     grid-row: 1;
+    grid-column: 2 / 4;
+    text-align: center;
 }
 
 .column1 {
     grid-row: 2;
-    grid-column: 1 / 2;
+    grid-column: 1;
+    max-width: 379px;
+    max-height: 404px;
+    margin-left: 130px;
 }
 
 .column2 {
     grid-row: 2;
     grid-column: 2 / 3;
+    max-width: 379px;
+    max-height: 404px;
+    margin-left: 50px;
 }
 
 .column3 {
     grid-row: 2;
     grid-column: 3 / 4;
+    max-width: 379px;
+    max-height: 404px;
+    margin-left: 25px;
 }
 
 .column4 {
     grid-row: 2;
     grid-column: 4 / 5;
+    max-width: 379px;
+    max-height: 404px;
+    margin-right: 100px;
+}
+
+.pot-imgs {
+    width: 379px;
+    height: 404px;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
