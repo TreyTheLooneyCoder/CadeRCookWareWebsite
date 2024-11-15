@@ -18,7 +18,7 @@
 
 
     <!-- Navbar -->
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar bg-body-tertiary d-lg-block d-none">
         <div class="container flex-row d-flex ms-5 ">
             <a class="navbar-brand" href="#">
                 <img src="./assets/Logo.svg" alt="Bootstrap" width="92.94" height="79">
@@ -32,6 +32,35 @@
                     <a style="color: D76151;" class="navbar-brand ms-4 me-4" href="#">SALE</a>
                 </div>
             </nav>
+        </div>
+    </nav>
+
+
+    <nav class="navbar bg-body-tertiary fixed-top d-block d-sm-none">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">COOKWARE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">BAKEWARE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">ACCESSORIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">SALE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -90,7 +119,8 @@
         </div>
         <div class="a-row2">
             <div class="a-column1">
-                <img class="arrival-imgs" src="./assets/NewArrivals1.jpg" alt="Fall collection pot, color: Apple Cinnamon">
+                <img class="arrival-imgs" src="./assets/NewArrivals1.jpg"
+                    alt="Fall collection pot, color: Apple Cinnamon">
                 <h2>Fall Collection</h2>
                 <p>Our 2023 Fall Collection just came out with beautiful autumn color cookware.</p>
             </div>
@@ -102,7 +132,7 @@
         </div>
     </div>
     <!-- New Arrivals End -->
-     
+
 
     <!-- Best Sellers -->
     <div class="best-section">
@@ -113,7 +143,8 @@
             <div class="b-column1">
                 <img class="best-imgs" src="./assets/BestSeller1.jpg" alt="Red stock pot.">
                 <h2>Stock Pot</h2>
-                <p>Our fall bakeware is back again with warm fall colors.Check out our fall line of bakeware from fall colored pots to baking pans.</p>
+                <p>Our fall bakeware is back again with warm fall colors.Check out our fall line of bakeware from fall
+                    colored pots to baking pans.</p>
                 <div class="shop-now">
                     <p>SHOP NOW</p>
                 </div>
@@ -122,7 +153,11 @@
                 <img class="best-imgs" src="./assets/BestSeller2.jpg" alt="Blue stock pot.">
                 <h2>Stock Pot</h2>
                 <p>
-                    The Stock Pot is a cookware that is revolutionizing the way you cook! With its innovative design and advanced materials. The Stock Pot is the perfect choice for any kitchen. Its unique combination of ceramic and aluminum ensures that your food cooks evenly and quickly, while its non-stick coating ensures that nothing sticks to the surface. Whether you’re cooking for one or the whole family, the Stock Pot is the perfect choice!
+                    The Stock Pot is a cookware that is revolutionizing the way you cook! With its innovative design and
+                    advanced materials. The Stock Pot is the perfect choice for any kitchen. Its unique combination of
+                    ceramic and aluminum ensures that your food cooks evenly and quickly, while its non-stick coating
+                    ensures that nothing sticks to the surface. Whether you’re cooking for one or the whole family, the
+                    Stock Pot is the perfect choice!
                 </p>
 
                 <br>
@@ -131,11 +166,13 @@
                     <p>SHOP NOW</p>
                 </div>
             </div>
-             <div class="b-column3">
+            <div class="b-column3">
                 <img class="best-imgs" src="./assets/BestSeller3.jpg" alt="Blue sauce pan.">
                 <h2>Sause Pan</h2>
                 <p>
-                    The Sauce Pan is the perfect cookware for making a variety of sauces, stews, soups, and more. Its stainless steel construction ensures even heat distribution for better and faster cooking. No matter what you're cooking, you can count on the Sauce Pan to help you cook like a pro.
+                    The Sauce Pan is the perfect cookware for making a variety of sauces, stews, soups, and more. Its
+                    stainless steel construction ensures even heat distribution for better and faster cooking. No matter
+                    what you're cooking, you can count on the Sauce Pan to help you cook like a pro.
                 </p>
 
                 <br>
@@ -158,34 +195,37 @@
             <h1>Reviews</h1>
         </div>
 
-        <div class="r-column1" style="background-image: url(/assets/Reviews1.jpg);">
+        <div class="r-column1 r-hero">
 
             <div class="r-hero-text1 r-hero-bg">
                 <h2>Wok Star!</h2>
                 <p>
-                    I love cooking using the cast iron wok for everyday family meals. With the wok it makes the food I make turn into restaurant quality meals. I bought this wok for my parents and also siblings!
+                    I love cooking using the cast iron wok for everyday family meals. With the wok it makes the food I
+                    make turn into restaurant quality meals. I bought this wok for my parents and also siblings!
                 </p>
                 <p>David Jones</p>
             </div>
         </div>
 
-        <div class="r-column2">
+        <div class="r-column2 r-hero">
 
             <div class="r-hero-text2 r-hero-bg">
                 <h2>Built To Last</h2>
                 <p>
-                    Bought the cast iron pot and it lasted longer than the other brands I bought. Not only are the pots durable but the colors of the pots are so nice!
+                    Bought the cast iron pot and it lasted longer than the other brands I bought. Not only are the pots
+                    durable but the colors of the pots are so nice!
                 </p>
                 <p>Danielle Johnson</p>
             </div>
         </div>
 
-        <div class="r-column3" style="background-image: url(/assets/Reviews3.jpg);">
+        <div class="r-column3 r-hero">
 
             <div class="r-hero-text3 r-hero-bg">
                 <h2>Best Cookware!</h2>
                 <p>
-                    I love all the cookware. I just bought my 4th pan and love it so much! I love the color of the pot and how durable the pots are. I’ve recommended the cast iron pot to all my friends and family.
+                    I love all the cookware. I just bought my 4th pan and love it so much! I love the color of the pot
+                    and how durable the pots are. I’ve recommended the cast iron pot to all my friends and family.
                 </p>
                 <p>Michelle</p>
             </div>
@@ -220,22 +260,19 @@
                 <p>FAQS</p>
             </div>
 
-            <div class="col">
+            <div class="col d-flex ">
                 <p>subscribe to our newsletter to be the first to know about new products and special events.</p>
                 <nav class="navbar">
                     <div class="container">
-                      <form class="d-flex" role="search">
-                        <input style="width: 239.81px; border-radius: opx;" class="me-2" type="search" placeholder="Enter email address" aria-label="Search">
-                        <button style="color: white; border: white solid 1px; width: 159px; border-radius: 0px;" class="btn " type="submit">SUBSCRIBE</button>
-                      </form>
+                        <form class="   " role="search">
+                            <input style="width: 239.81px; border-radius: opx;" class="me-2" type="search"
+                                placeholder="Enter email address" aria-label="Search">
+                            <button style="color: white; border: white solid 1px; width: 159px; border-radius: 0px;"
+                                class="btn " type="submit">SUBSCRIBE</button>
+                        </form>
                     </div>
                 </nav>
-                <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
+                <img src="./assets/Icons/SocialMediaIcons.png" alt="Social Media Icons">
             </div>
         </div>
     </div>
@@ -243,7 +280,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>
