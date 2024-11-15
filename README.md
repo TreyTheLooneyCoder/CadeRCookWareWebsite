@@ -1,6 +1,6 @@
 # Roy Cade III (Trey)
-# 11 / 15 / 2024
-# CookWare Website
+-- 11 / 15 / 2024
+-- CookWare Website
 
 In this Challenge you are to recreate the prototype from the Figma provided via link below
 (link for figma)
