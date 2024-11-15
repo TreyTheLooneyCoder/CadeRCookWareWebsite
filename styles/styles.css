@@ -936,7 +936,8 @@ h5 {
 
     /* Footer */
     .footer {
-        padding: 17px;
+        padding-top: 30px;
+        padding-left: 100px;
     }
     /* Footer */
 }
