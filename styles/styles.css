@@ -377,6 +377,10 @@ h5 {
   background-color: #1e2c20;
   color: white;
 }
+
+.turn-green:hover {
+    color: #24946d !important;
+  }
 /* Footer End */
 
 /* Responsiveness */
