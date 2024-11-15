@@ -40,7 +40,7 @@ h5 {
     font-size: 1.875em;
     color: white;
     position: absolute;
-    top: 850px;
+    top: 1000px;
     left: 10%;
 }
 
@@ -404,7 +404,7 @@ h5 {
         margin-top: 100px;
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: 100px;
+        margin-bottom: 20px;
     }
 
     .p-row1 {
@@ -458,131 +458,72 @@ h5 {
 
     /* New Arrivals */
     .a-row1 {
-        justify-content: center;
-        margin-top: 40px;
+        margin-top: 10px;
         margin-bottom: 50px;
         
     }
 
     .a-row2 {
-        display: flex;
-        align-items: center;
-        /* justify-content: space-around; */
-        
-        
+        flex-direction: column; 
     }
 
     .a-column1 {
-        margin-left: 130px;
-        margin-right: 25px;
+        margin-left: 15px;
+        margin-right: 0px;
     }
 
     .a-column2 {
-        margin-left: 25px;
-        margin-right: 130px;
+        margin-left: 15px;
+        margin-right: 0px;
     }
 
     .arrival-imgs {
-        width: 395px;
-        height: 310px;
+        width: 510px;
+        height: 410px;
+        padding-bottom: 10px;
     }
     /* New Arrivals End */
 
 
     /* Best Sellers */ 
     .best-section {
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;   
+        margin-top: 30px;   
     }
 
     .b-row1 {
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
-        margin-bottom: 50px;
+        margin-top: 20px;
     }
 
     .b-row2 {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+        flex-direction: column;
     }
 
     .b-column1 {
-        border: black solid 2px;
-        border-radius: 10px;
-        margin-left: 40px;
-        width: 497px;
-        height: 625px;
-        display: flex;
-        flex-direction: column;
-        align-self: self-start;
-    }
-
-    .b-column1 > img, .b-column1 > p {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        align-self: center;
-    }
-
-    .b-column1 > h2, .b-column1 > p {
-        margin: 20px;
+        border: black solid 1px;
+        margin-left: 5px;
+        width: 530px;
+        height: 825px;
+        margin-bottom: 30px;
     }
 
     .b-column2 {
-        border: black solid 2px;
-        border-radius: 10px;
-        width: 497px;
-        height: 757px;
-    }
-
-    .b-column2 > img, .b-column2 > p {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        justify-self: center;
-    }
-
-    .b-column2 > h2, .b-column2 > p {
-        margin: 20px;
+        border: black solid 1px;
+        width: 530px;
+        height: 825px;
+        margin-bottom: 30px;
     }
 
     .b-column3 {
-        border: black solid 2px;
-        border-radius: 10px;
-        margin-right: 40px;
-        width: 497px;
-        height: 757px;    
-    }
-
-    .b-column3 > img, .b-column3 > p {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        justify-self: center;
-    }
-
-    .b-column3 > h2, .b-column3 > p {
-        margin: 20px;
+        border: black solid 1px;
+        margin-right: 0px;
+        width: 530px;
+        height: 825px;   
     }
 
     .best-imgs {
-        width: 449px;
-        height: 338px;
+        width: 500px;
+        height: 388px;
         border-radius: 10px;
-    }
-
-    .shop-now {
-        border: black solid 2px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 10px;
-        width: 159px;
-        height: 42px;
-        display: flex;
-        justify-content: center;
     }
     /* Best Sellers End */
 
