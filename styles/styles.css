@@ -29,6 +29,12 @@ h5 {
 }
 /* General Use end */
 
+/* Nav Animation */
+.turn-orange:hover {
+    text-decoration: underline;
+    color: #D76151 !important;
+}
+/* Nav Animation End */
 
 /* Main Middle Img */
 .hero-size {
@@ -122,6 +128,10 @@ h5 {
     border-radius: 15px;
     margin-bottom: 20px;
 }
+
+.p-animation:hover {
+    zoom: 105%;
+}
 /* Pot Cards End */
 
 
@@ -161,6 +171,10 @@ h5 {
 .arrival-imgs {
     width: 805px;
     height: 632px;
+}
+
+.a-animation:hover {
+    filter: brightness(55%);
 }
 /* New Arrivals End */
 
@@ -259,6 +273,15 @@ h5 {
     height: 42px;
     display: flex;
     justify-content: center;
+}   
+
+.b-img-animation:hover {
+    zoom: 105%;
+}
+
+.b-shop-animation:hover {
+    background-color: #1E2C20;
+    color: white;
 }
 /* Best Sellers End */
 
