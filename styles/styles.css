@@ -413,8 +413,8 @@ h5 {
 
 
     .tm-nav {
-        width: 540px; 
-        height: 80px;
+        max-width: 540px; 
+        max-height: 80px;
     }
 
     /* Main Middle Img */
@@ -659,7 +659,7 @@ h5 {
     }
     /* Footer */
 }
-    
+
 @media screen and (max-width: 768px) {
     /* General Use */
     h1 {
@@ -685,7 +685,7 @@ h5 {
 
     /* Navbar */
     .tm-nav {
-        width: 768px;
+        max-width: 768px;
     }
     /* Navbar End */
 
