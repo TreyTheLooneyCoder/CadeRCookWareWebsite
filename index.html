@@ -29,7 +29,7 @@
                     <a class="navbar-brand ms-4 me-4" href="#">COOKWARE</a>
                     <a class="navbar-brand ms-4 me-4" href="#">BAKEWARE</a>
                     <a class="navbar-brand ms-4 me-4" href="#">ACCESSORIES</a>
-                    <a style="color: D76151;" class="navbar-brand ms-4 me-4" href="#">SALE</a>
+                    <a style="color: #B73A2A;" class="navbar-brand ms-4 me-4" href="#">SALE</a>
                 </div>
             </nav>
         </div>
@@ -45,7 +45,7 @@
             <a class="navbar-brand" href="#">
                 <img src="./assets/Logo.svg" alt="Bootstrap" width="42.94" height="50">
             </a>    
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -59,7 +59,7 @@
                             <a class="nav-link active" href="#">ACCESSORIES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">SALE</a>
+                            <a class="nav-link active" href="#" style="color: #B73A2A;">SALE</a>
                         </li>
                     </ul>
                 </div>
@@ -68,6 +68,7 @@
     </nav>
     <!-- Navbar End -->
 
+    <br>
 
     <!-- Hero Img -->
     <div class="section">
@@ -237,7 +238,7 @@
     <!-- Reviews End -->
 
     <!-- Footer -->
-    <div class="container-fluid footer d-lg-block d-none">
+    <div class="container-fluid footer d-lg-block d-none flex-row">
         <div class="row">
             <div class="col">
                 <h5>ABOUT OUR HOME</h5>
@@ -263,19 +264,31 @@
                 <p>FAQS</p>
             </div>
 
-            <div class="col d-flex ">
-                <p>subscribe to our newsletter to be the first to know about new products and special events.</p>
-                <nav class="navbar">
-                    <div class="container">
-                        <form class="   " role="search">
-                            <input style="width: 239.81px; border-radius: opx;" class="me-2" type="search"
-                                placeholder="Enter email address" aria-label="Search">
-                            <button style="color: white; border: white solid 1px; width: 159px; border-radius: 0px;"
-                                class="btn " type="submit">SUBSCRIBE</button>
-                        </form>
+            <div class="col">
+                <div class="container p-3">
+                    <div class="row">
+                        <div class="col">
+                            <p>subscribe to our newsletter to be the first to know about new products and special events.</p>
+                        </div>
                     </div>
-                </nav>
-                <img src="./assets/Icons/SocialMediaIcons.png" alt="Social Media Icons">
+                    <div class="row">
+                        <div class="col">
+                            <nav class="navbar">
+                                <form role="search">
+                                    <input style="width: 200px; height: 40px; border-radius: opx;" class="me-2" type="search"
+                                        placeholder="Enter email address" aria-label="Search">
+                                    <button style="color: white; border: white solid 1px; width: 159px; border-radius: 0px;"
+                                        class="btn " type="submit">SUBSCRIBE</button>
+                                </form>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img src="./assets/Icons/SocialMediaIcons.png" alt="Social Media Icons">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
