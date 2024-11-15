@@ -399,7 +399,7 @@ h5 {
     /* Main Middle Img */
 
     .logo {
-        top: 250px;
+        top: 260px;
     }
 
     .hero-bg {
@@ -421,10 +421,10 @@ h5 {
     .pot-section {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 20px 1fr 1fr;
-        margin-top: 100px;
+        margin-top: 30px;
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .p-row1 {
@@ -448,7 +448,7 @@ h5 {
         max-width: 220px;
         max-height: 215px;
         margin-top: 40px;
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .p-column3 {
@@ -466,7 +466,7 @@ h5 {
         max-width: 220px;
         max-height: 215px;
         margin-top: 60px;
-        margin-left: 20px;
+        margin-left: 50px;
         margin-right: 100px;
     }
 
@@ -499,7 +499,7 @@ h5 {
     }
 
     .arrival-imgs {
-        width: 470px;
+        width: 510px;
         height: 410px;
         padding-bottom: 10px;
     }
@@ -522,7 +522,7 @@ h5 {
     .b-column1 {
         border: black solid 1px;
         margin-left: 5px;
-        width: 493px;
+        width: 530px;
         height: 825px;
         margin-bottom: 30px;
     }
@@ -538,7 +538,7 @@ h5 {
 
     .b-column2 {
         border: black solid 1px;
-        width: 493px;
+        width: 530px;
         height: 825px;
         margin-bottom: 30px;
         margin-left: 5px;
@@ -557,8 +557,9 @@ h5 {
     .b-column3 {
         border: black solid 1px;
         margin-left: 5px;
-        width: 493px;
-        height: 860px;   
+        width: 530px;
+        height: 860px; 
+        margin-right: 5px;  
     }
 
     .b-column3 > p {
@@ -609,7 +610,7 @@ h5 {
     }
 
     .r-hero {
-        width: 485px;
+        width: 520px;
     }
     /* Reviews End */
 
