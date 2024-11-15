@@ -129,8 +129,15 @@ h5 {
     margin-bottom: 20px;
 }
 
+.p-img-container {
+    max-width: 379px;
+    max-height: 404px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
 .p-animation:hover {
-   zoom: 105%;
+   zoom: 110%;
 }
 /* Pot Cards End */
 
@@ -275,8 +282,17 @@ h5 {
     justify-content: center;
 }   
 
+.b-img-container {
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: 449px;
+    max-height: 338px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
 .b-img-animation:hover {
-    zoom: 105%;
+    zoom: 110%;
 }
 
 .b-shop-animation:hover {
@@ -395,6 +411,11 @@ h5 {
     }
     /* General Use end */
 
+
+    .tm-nav {
+        width: 540px; 
+        height: 80px;
+    }
 
     /* Main Middle Img */
 
@@ -530,11 +551,13 @@ h5 {
 
     .b-column1 > p {
         font-size: 24px; 
-        margin-bottom: 130px 
+        margin-bottom: 130px;
+        margin-left: 30px;
     }
     
     .b-column1 > h2 {
         margin-bottom: 10px;
+        margin-left: 30px;
     }
 
     .b-column2 {
@@ -549,10 +572,12 @@ h5 {
     .b-column2 > p {
         font-size: 20px; 
         margin-bottom: 6px;
+        margin-left: 30px;
     }
     
     .b-column2 > h2 {
         margin-bottom: 10px;
+        margin-left: 30px;
     }
 
     .b-column3 {
@@ -561,21 +586,33 @@ h5 {
         width: 530px;
         height: 860px; 
         margin-right: 5px;  
+        padding: 10px;
     }
 
     .b-column3 > p {
         font-size: 24px; 
         margin-bottom: 0px;
+        margin-left: 30px;
     }
     
     .b-column3 > h2 {
         margin-bottom: 0px;
+        margin-left: 30px;
     }
 
     .best-imgs {
         width: 470px;
         height: 388px;
         border-radius: 10px;
+    }
+
+    .b-img-container {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .shop-now {
+        margin-left: 40px;
     }
     /* Best Sellers End */
 
@@ -623,3 +660,283 @@ h5 {
     /* Footer */
 }
     
+@media screen and (max-width: 768px) {
+    /* General Use */
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 36px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+    /* General Use end */
+
+    /* Navbar */
+    .tm-nav {
+        width: 768px;
+    }
+    /* Navbar End */
+
+    /* Main Middle Img */
+
+    .logo {
+        top: 360px;
+    }
+
+    .hero-bg {
+        padding: 5px;
+        padding-bottom: 0px;
+    }
+    /* Main Middle Img End */
+
+
+    /* $10 Off */
+    .sale-line {
+        font-size: 20px;
+        grid-template-columns: 218px 400px 150px;
+        grid-template-rows: 20px 20px 20px;
+    }
+    /* $10 Off End */
+
+
+    /* Pot Cards */
+    .pot-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20px 1fr 1fr;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .p-row1 {
+        grid-row: 1;
+        grid-column: span 3;
+        
+    }
+
+    .p-column1 {
+        grid-row: 2;
+        grid-column: 1 / 2;
+        max-width: 350px;
+        max-height: 315px;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .p-column2 {
+        grid-row: 2;
+        grid-column: 2 / 3;
+        max-width: 350px;
+        max-height: 315px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .p-column3 {
+        grid-row: 3;
+        grid-column: 1 / 2;
+        max-width: 350px;
+        max-height: 315px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+
+    .p-column4 {
+        grid-row: 3;
+        grid-column: 2 / 3;
+        max-width: 380px;
+        max-height: 315px;
+        margin-top: 60px;
+        margin-left: 30px;
+        margin-right: 100px;
+    }
+
+    .pot-imgs {
+        width: 350px;
+        height: 315px;
+    }
+    /* Pot Cards End */
+
+
+    /* New Arrivals */
+    .a-row1 {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        
+    }
+
+    .a-row2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .a-column1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .a-column2 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .arrival-imgs {
+        width: 650px;
+        height: 500px;
+        padding-bottom: 10px;
+    }
+    /* New Arrivals End */
+
+
+    /* Best Sellers */ 
+    .best-section {
+        margin-top: 30px;   
+    }
+
+    .b-row1 {
+        margin-top: 20px;
+    }
+
+    .b-row2 {
+        flex-direction: column;
+    }
+
+    .b-column1 {
+        border: black solid 1px;
+        margin-left: 35px;
+        width: 700px;
+        height: 850px;
+        margin-bottom: 30px;
+    }
+
+    .b-column1 > p {
+        font-size: 24px; 
+        margin-bottom: 130px;
+        margin-left: 50px;
+    }
+    
+    .b-column1 > h2 {
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+
+    .b-column2 {
+        border: black solid 1px;
+        width: 700px;
+        height: 850px;
+        margin-bottom: 30px;
+        margin-left: 35px;
+        align-self: start;
+    }
+
+    .b-column2 > p {
+        font-size: 20px; 
+        margin-bottom: 6px;
+        margin-left: 50px;
+    }
+    
+    .b-column2 > h2 {
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+
+    .b-column3 {
+        border: black solid 1px;
+        margin-left: 25px;
+        width: 700px;
+        height: 870px; 
+        margin-right: 35px;  
+        padding: 10px;
+    }
+
+    .b-column3 > p {
+        font-size: 24px; 
+        margin-bottom: 0px;
+        margin-left: 50px;
+    }
+    
+    .b-column3 > h2 {
+        margin-bottom: 0px;
+        margin-left: 50px;
+    }
+
+    .best-imgs {
+        width: 600px;
+        height: 588px;
+        border-radius: 10px;
+    }
+
+    .b-img-container {
+        max-width: 600px;
+        max-height: 420px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .shop-now {
+        margin-left: 40px;
+    }
+    /* Best Sellers End */
+
+
+    /* Reviews */
+    .rev-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 20px 1fr 1fr 1fr;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+
+    .r-row1 {
+        grid-column: 1;
+    }
+
+    .r-column1 {
+        grid-row: 2;
+        grid-column: 1;
+        margin-top: 80px;
+        margin-left: 55px;
+    }
+
+    .r-column2 {
+        grid-row: 3;
+        grid-column: 1;
+        margin-top: 80px;
+        margin-left: 55px;
+    }
+
+    .r-column3 {
+        grid-row: 4;
+        grid-column: 1;
+        margin-top: 80px;
+        margin-left: 55px;
+    }
+
+    .r-hero {
+        width: 630px;
+        background-repeat: no-repeat;
+    }
+    /* Reviews End */
+
+
+    /* Footer */
+    .footer {
+        padding: 17px;
+    }
+    /* Footer */
+}
