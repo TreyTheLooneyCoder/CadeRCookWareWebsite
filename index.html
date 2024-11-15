@@ -36,12 +36,15 @@
     </nav>
 
 
-    <nav class="navbar bg-body-tertiary fixed-top d-block d-sm-none">
+    <nav class="navbar bg-body-tertiary fixed-top d-block d-sm-none" style="width: 540px; height: 80px;">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="border: 0px;">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <a class="navbar-brand" href="#">
+                <img src="./assets/Logo.svg" alt="Bootstrap" width="42.94" height="50">
+            </a>    
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-body">
@@ -234,7 +237,7 @@
     <!-- Reviews End -->
 
     <!-- Footer -->
-    <div class="container-fluid footer">
+    <div class="container-fluid footer d-lg-block d-none">
         <div class="row">
             <div class="col">
                 <h5>ABOUT OUR HOME</h5>
@@ -273,6 +276,52 @@
                     </div>
                 </nav>
                 <img src="./assets/Icons/SocialMediaIcons.png" alt="Social Media Icons">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid footer d-block d-sm-none">
+        <div class="row d-flex justify-content-start mt-5 p-2">
+            <div class="col">
+                <p>subscribe to our newsletter to be the first to know about new products and special events.</p>
+                <nav class="navbar">
+                    <div class="container">
+                        <form class="   " role="search">
+                            <input style="width: 239.81px; height: 50px; border-radius: opx;" class="" type="search"
+                                placeholder="Enter email address" aria-label="Search">
+                            <button style="color: white; border: white solid 1px;height: 50px; width: 220px; border-radius: 0px;"
+                                class="btn " type="submit">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </nav>
+                <img src="./assets/Icons/SocialMediaIcons.png" alt="Social Media Icons" style="width: auto; height: 40px;">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <h3>ABOUT OUR HOME</h3>
+                <p>ABOUT US</p>
+                <p>CAREERS</p>
+                <p>PRIVACY</p>
+                <p>MEDIA RELATIONS</p>
+            </div>
+
+            <div class="col">
+                <h3>PRODUCTS</h3>
+                <p>COOKWARE</p>
+                <p>BAKEWARE</p>
+                <p>BEST SELLERS</p>
+                <p>ACCESSORIES</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <h3>CUSTOMER SERVICE</h3>
+                <p>CONTACT US</p>
+                <p>ORDER STATUS</p>
+                <p>RETURNS & EXCHANGES</p>
+                <p>FAQS</p>
             </div>
         </div>
     </div>
