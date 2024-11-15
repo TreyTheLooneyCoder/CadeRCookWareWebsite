@@ -268,15 +268,16 @@ h5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
 }
 
 .r-row1 {
     grid-row: 1;
     grid-column: 2;
     text-align: center;
+    
 }
 
 .r-column1 {
@@ -285,6 +286,7 @@ h5 {
     background-image: url("/assets/Reviews1.jpg");
     background-size: 531px 665px;
     background-repeat: no-repeat;
+    margin-top: 30px;
 }
 
 .r-column2 {
@@ -293,6 +295,7 @@ h5 {
     background-image: url("/assets/Reviews2.jpg");
     background-size: 531px 665px;
     background-repeat: no-repeat;
+    margin-top: 30px;
 }
 
 .r-column3 {
@@ -301,6 +304,7 @@ h5 {
     background-image: url("/assets/Reviews3.jpg");
     background-size: 531px 665px;
     background-repeat: no-repeat;
+    margin-top: 30px;
 }
 
 .r-hero {
@@ -311,14 +315,17 @@ h5 {
 
 .r-hero-text1 {
     color: white; 
+    text-align: center;
 }
 
 .r-hero-text2 {
     color: white;
+    text-align: center;
 }
 
 .r-hero-text3 {
     color: white;
+    text-align: center;
 }
 
 .r-hero-bg {
@@ -332,3 +339,14 @@ h5 {
     margin-left: 53px;
 }
 /* Reviews End */
+
+
+/* Footer */
+.footer {
+    padding: 100px;
+    background-color: #1E2C20;
+    color: white;
+}
+
+
+/* Footer End */
