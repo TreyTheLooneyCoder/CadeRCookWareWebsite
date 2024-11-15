@@ -40,6 +40,8 @@ Peer Reviewed by: Santiago Jesus Montanez
 9. Lastly I noticed a few of the images that were missing didn't have alt text.
     Please be sure to add alt text where you can.
 
+--Fixed.
+
 ## Final thoughts
 
 I think you can probably try spending rest of the day on the items I mentioned above.
